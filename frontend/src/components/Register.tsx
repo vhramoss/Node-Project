@@ -4,7 +4,7 @@ import api from '../services/api';
 import '../App.css';
 
 const Register = () => {
-  const [name, setName] = useState(''); // NOVO: Estado para o nome
+  const [name, setName] = useState(''); 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();

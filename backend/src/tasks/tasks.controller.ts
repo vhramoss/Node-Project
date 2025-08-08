@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, ParseIntPipe, UseGua
 import { TasksService } from './tasks.service';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { UpdateTaskDto } from './dto/update-task.dto';
-import { JwtAuthGuard } from '../auth/jwt-auth.guard'; // Iremos criar este arquivo no próximo passo
+import { JwtAuthGuard } from '../auth/jwt-auth.guard'; 
 
 @UseGuards(JwtAuthGuard)
 @Controller('tasks')

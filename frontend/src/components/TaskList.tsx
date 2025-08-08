@@ -18,7 +18,7 @@ const TaskList = () => {
   const [editingTask, setEditingTask] = useState<Task | null>(null);
   const [errorMessage, setErrorMessage] = useState('');
   
-  // NOVO: Estado para gerenciar o filtro
+  //Estado para gerenciar o filtro
   const [filterStatus, setFilterStatus] = useState<'all' | 'completed' | 'pending'>('all');
 
   const navigate = useNavigate();
